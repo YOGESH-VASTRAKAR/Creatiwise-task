@@ -1,0 +1,70 @@
+.experience-section {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.experience-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.experience-item {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  flex-wrap: wrap;
+  border-bottom: 1.5px solid #FFFFFF80;
+  padding-bottom: 15px;
+}
+
+.exp-left h3 {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.exp-right {
+  text-align: right;
+}
+
+.exp-right strong {
+  font-size: 24px;
+  font-weight: 400;
+  display: block;
+}
+
+.exp-right span {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #aaa;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .experience-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .exp-right {
+    text-align: left;
+  }
+}
